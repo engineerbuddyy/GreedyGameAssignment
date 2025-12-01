@@ -1,75 +1,86 @@
-GreedyGame - Quotes Browser App
+🌟 GreedyGame - Quotes Browser App
 
-A modern Android quotes app built with Jetpack Compose, featuring quotes display, banner slider, favorite quotes management, and persistent storage using DataStore Preferences.
+A modern Android quotes app built with Jetpack Compose, featuring:
+
+Quotes display with gradient cards
+
+Banner slider for featured content
+
+Favorite quotes management
+
+Persistent storage with DataStore Preferences
+
+Floating, movable navigation bar
 
 📱 Features
+Home Screen
 
-Home Screen:
+Displays a list of quotes in beautiful gradient cards
 
-Displays a list of quotes with gradient cards.
+Banner slider at the top for featured content
 
-Banner slider at the top to showcase featured content.
+Long press on a quote navigates to Detail Screen
 
-Long press on a quote navigates to Detail Screen.
+Detail Screen
 
-Detail Screen:
+Shows quote text and author
 
-Shows quote in detail with author.
+Toggle favorite using a heart icon
 
-Toggle favorite using a heart icon.
+Favorites Screen
 
-Favorites Screen:
+Displays all quotes marked as favorite
 
-Displays all quotes marked as favorite.
+Updates automatically when favorites change
 
-Updates automatically when favorites change.
+Floating Navigation Bar
 
-Floating Navigation Bar:
+Movable and slidable bottom navigation bar
 
-A movable, slidable bottom navigation bar.
+Can be dragged to any position on the screen
 
-Can be dragged to different positions on the screen.
+Provides quick access to Home and Favorites screens
 
-Provides quick access to Home and Favorites screens.
+Data Persistence
 
-Data Persistence:
+Favorites stored using DataStore Preferences (modern replacement for SharedPreferences)
 
-Favorite quotes are stored using DataStore Preferences (modern replacement for SharedPreferences).
+UI updates automatically on change
 
-UI reacts automatically to changes in favorites.
+Navigation
 
-Navigation:
+Clean navigation using Navigation Compose
 
-Clean navigation using Navigation Component in Compose.
+Image Loading
 
-Image Loading:
-
-Quote images loaded asynchronously using Coil.
+Quote images loaded asynchronously using Coil
 
 🏗️ Project Structure
+
+
 com.example.greedygamequoteappassignment
 │
 ├─ data/
-│   ├─ QuoteModel.kt        # Quote data class
-│   ├─ BannerModel.kt       # Banner data class
-│   └─ datastore.kt         # DataStore implementation for favorites
+│   ├─ QuoteModel.kt          # Data class for quotes
+│   ├─ BannerModel.kt         # Data class for banners
+│   └─ datastore.kt           # DataStore preferences helper
 │
 ├─ repository/
-│   └─ QuoteRepository.kt   # Handles quotes & favorite IDs with DataStore
+│   └─ QuoteRepository.kt     # Handles quotes & favorite IDs
 │
 ├─ viewModel/
-│   └─ QuoteViewModel.kt    # Provides quotes & favorites to UI
+│   └─ QuoteViewModel.kt      # Provides quotes & favorites to UI
 │
 ├─ presentation/
-│   ├─ HomeScreen.kt        # Displays quotes + banner slider
-│   ├─ DetailScreen.kt      # Shows quote details + favorite toggle
-│   ├─ FavouriteScreen.kt   # Displays favorite quotes
-│   ├─ BannerPager.kt       # Pager for banners
+│   ├─ HomeScreen.kt
+│   ├─ DetailScreen.kt
+│   ├─ FavouriteScreen.kt
+│   ├─ BannerPager.kt
 │   └─ Nav/
-│       ├─ AppNavGraph.kt   # Navigation graph
-│       └─ QuoteScreen.kt   # Navigation routes
+│       ├─ AppNavGraph.kt
+│       └─ QuoteScreen.kt
 │
-├─ ui/theme/                # Fonts, colors, typography
+├─ ui/theme/                  # Custom fonts, colors, typography
 └─ build.gradle
 
 🛠️ Technologies Used
@@ -80,9 +91,9 @@ Jetpack Compose – Modern UI toolkit
 
 DataStore Preferences – Persistent storage for favorite quotes
 
-Coil – Image loading library
+Coil – Async image loading
 
-Navigation Compose – For screen navigation
+Navigation Compose – Screen navigation
 
 Material 3 – Modern Material Design components
 
@@ -94,19 +105,31 @@ implementation("androidx.datastore:datastore-preferences:1.1.1")
 implementation("androidx.compose.material:material-icons-extended:1.7.8")
 
 
-Full dependencies are managed via Version Catalog in libs.versions.toml.
+Full dependencies are managed via Version Catalog (libs.versions.toml)
 
 🔄 How It Works
 
-UI Layer: Composable screens observe Flow from the ViewModel.
+UI Layer: Composable screens observe Flow from the ViewModel
 
-ViewModel: Fetches quotes and favorite IDs from the repository.
+ViewModel: Fetches quotes and favorite IDs from repository
 
-Repository: Reads/writes favorite quote IDs to DataStore Preferences.
+Repository: Reads/writes favorite quote IDs to DataStore Preferences
 
-DataStore: Persistently stores favorites; UI updates automatically on change.
+DataStore: Persistently stores favorites; UI updates automatically
 
-Floating Navigation Bar: Movable and slidable, providing quick navigation without blocking content.
+Floating Navigation Bar: Movable and slidable, providing quick navigation
+
+
+### 🖼️ Screenshots
+
+**Home Screen**  
+![Home]()  
+
+**Detail Screen**  
+![Detail]()  
+
+**Favorites Screen**  
+![Favorites]()  
 
 
 
