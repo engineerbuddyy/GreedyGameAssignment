@@ -93,6 +93,9 @@ DataStore: Persistently stores favorites; UI updates automatically
 Floating Navigation Bar: Movable and slidable, providing quick navigation
 
 
+Acknowledgements: Special thanks to ChatGPT and Claude for guidance in implementing the movable, slidable navigation bar and for helping enhance the code structure and UI design.
+
+
 
 ### Screenshots
 
@@ -112,6 +115,13 @@ Floating Navigation Bar: Movable and slidable, providing quick navigation
     <img src="FavouriteScreen.jpg" alt="Favorites Screen" width="250"/>
     <p>Favorites Screen</p>
   </div>
+
+  <div style="text-align: center;">
+    <img src="movableBottomBar.jpg" alt="Navigation Bar" width="250"/>
+    <p>Favorites Screen</p>
+  </div>
+
+  
 
 </div>
 
