@@ -104,7 +104,7 @@ Floating Navigation Bar: Movable and slidable, providing quick navigation
   </div>
 
   <div style="text-align: center;">
-    <img src="(DetailScreen.jpg" alt="Detail Screen" width="250"/>
+    <img src="DetailScreen.jpg" alt="Detail Screen" width="250"/>
     <p>Detail Screen</p>
   </div>
 
