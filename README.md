@@ -93,16 +93,28 @@ DataStore: Persistently stores favorites; UI updates automatically
 Floating Navigation Bar: Movable and slidable, providing quick navigation
 
 
-### 🖼️ Screenshots
 
-**Home Screen**  
-![Home](HomeScreen.jpg)  
+### Screenshots
 
-**Detail Screen**  
-![Detail](DetailScreen.jpg)  
+<div style="display: flex; gap: 10px; justify-content: center;">
 
-**Favorites Screen**  
-![Favorites](FavouriteScreen.jpg)  
+  <div style="text-align: center;">
+    <img src="HomeScreen.jpg" alt="Home Screen" width="250"/>
+    <p>Home Screen</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="(DetailScreen.jpg" alt="Detail Screen" width="250"/>
+    <p>Detail Screen</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="FavouriteScreen.jpg" alt="Favorites Screen" width="250"/>
+    <p>Favorites Screen</p>
+  </div>
+
+</div>
+
 
 
 
