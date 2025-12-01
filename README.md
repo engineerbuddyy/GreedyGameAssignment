@@ -55,33 +55,6 @@ Image Loading
 
 Quote images loaded asynchronously using Coil
 
-🏗️ Project Structure
-
-
-com.example.greedygamequoteappassignment
-│
-├─ data/
-│   ├─ QuoteModel.kt          # Data class for quotes
-│   ├─ BannerModel.kt         # Data class for banners
-│   └─ datastore.kt           # DataStore preferences helper
-│
-├─ repository/
-│   └─ QuoteRepository.kt     # Handles quotes & favorite IDs
-│
-├─ viewModel/
-│   └─ QuoteViewModel.kt      # Provides quotes & favorites to UI
-│
-├─ presentation/
-│   ├─ HomeScreen.kt
-│   ├─ DetailScreen.kt
-│   ├─ FavouriteScreen.kt
-│   ├─ BannerPager.kt
-│   └─ Nav/
-│       ├─ AppNavGraph.kt
-│       └─ QuoteScreen.kt
-│
-├─ ui/theme/                  # Custom fonts, colors, typography
-└─ build.gradle
 
 🛠️ Technologies Used
 
@@ -123,13 +96,13 @@ Floating Navigation Bar: Movable and slidable, providing quick navigation
 ### 🖼️ Screenshots
 
 **Home Screen**  
-![Home]()  
+![Home](HomeScreen.jpg)  
 
 **Detail Screen**  
-![Detail]()  
+![Detail](DetailScreen.jpg)  
 
 **Favorites Screen**  
-![Favorites]()  
+![Favorites](FavouriteScreen.jpg)  
 
 
 
