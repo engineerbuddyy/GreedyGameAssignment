@@ -118,7 +118,7 @@ Acknowledgements: Special thanks to ChatGPT and Claude for guidance in implement
 
   <div style="text-align: center;">
     <img src="movableBottomBar.jpg" alt="Navigation Bar" width="250"/>
-    <p>Favorites Screen</p>
+    <p>Navigation Bar</p>
   </div>
 
   
